@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "electron": "^25.3.0"
+  },
+  "name": "gui",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

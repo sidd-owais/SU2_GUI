@@ -1,0 +1,84 @@
+* {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+#container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: royalblue;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 247, 0, 0.527));
+    margin: 10px 0;
+    text-align: center;
+
+}
+
+body {
+    font-size: 20px;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+#angle-of-attack, #temperature, #mach-number {
+    /* width: 25%; */
+    width: 200px;
+    min-width: 0;
+    color: black;
+    background-image: linear-gradient(to right, rgb(255, 132, 255), rgb(148, 93, 93));
+    /* background: rgba(0, 20, 102, 0.598); */
+    border: rgb(179, 179, 191) 3px solid;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    /* width: 20%; */
+    /* margin-left: 20px; */
+}
+
+.input-placeholder {
+    /* text-align: right; */
+    /* width: 50px; */
+    text-transform:capitalize;
+    margin-bottom: 10px;
+}
+
+.input-number {
+    display: block;
+    font-size: 20px;
+    /* height: 0px; */
+    /* width: 10px; */
+    /* width: 100%; */
+    /* width: 0px; */
+    /* width: 100px; */
+    /* width: 40%; */
+    min-width: 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px rgb(212, 126, 255) solid;
+}
+
+select {
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+#config {
+    margin: 20px 0;
+}
+
+button {
+    font-size: 20px;
+    color: royalblue;
+    background-color: rgb(226, 196, 255);
+    border-radius: 10px;
+    padding: 4px;
+    
+}
+
+.hidden {
+    display: none;
+}
